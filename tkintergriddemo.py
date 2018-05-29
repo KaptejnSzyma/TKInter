@@ -9,7 +9,7 @@ except ImportError: # python 2
 mainWindow = tkinter.Tk()
 
 mainWindow.title("Hello World")
-mainWindow.geometry('640x480')
+mainWindow.geometry('640x480-8-200')
 
 
 label = tkinter.Label(mainWindow, text="Hello World")
